@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Board from "../components/Board";
-import { loadFromStorage, saveToStorage } from "../utils/storage";
-import { Board as BoardType } from "../types";
+import Board from "@/components/Board";
+import { loadFromStorage, saveToStorage } from "@/utils/storage";
+import { Board as BoardType } from "@/types";
 // 식별자 id 사용
 import { v4 as uuidv4 } from "uuid";
 

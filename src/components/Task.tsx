@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Board as BoardType, Task as TaskType } from "../types";
+import { Board as BoardType, Task as TaskType } from "@/types";
 
 interface TaskProps {
   board: BoardType;

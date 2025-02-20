@@ -1,7 +1,8 @@
-module.exports = {
-  reactStrictMode: true,
-  swcMinify: true,
-  images: {
-    domains: ["example.com"], // Add your image domains here
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    typedRoutes: true,
   },
 };
+
+module.exports = nextConfig;
